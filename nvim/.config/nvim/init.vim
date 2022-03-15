@@ -76,6 +76,8 @@ let g:python_host_prog = '/usr/bin/python'
 
 
 " plugins
+" disable polyglot for markdown
+let g:polyglot_disabled = ['markdown']
 " vim plug
 call plug#begin('~/.config/nvim/plugged')
 Plug 'dkarter/bullets.vim'
