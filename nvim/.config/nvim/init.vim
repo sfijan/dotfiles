@@ -48,9 +48,6 @@ set statusline=%<%f%h%m%r%=%b\ 0x%B\ \ %l,%c%V\ %P
 set shiftwidth=4
 set softtabstop=4
 " auto indentation
-if has("autocmd")
-  filetype plugin indent on
-endif
 set autoindent
 
 " disable swap files
