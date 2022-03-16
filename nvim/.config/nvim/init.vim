@@ -95,5 +95,4 @@ let g:deoplete#enable_at_startup = 1
 inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 
 " vim-illuminate
-hi link illuminatedWord Visual
-
+let g:Illuminate_highlightUnderCursor = 0
