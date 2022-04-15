@@ -85,6 +85,7 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'RRethy/vim-illuminate'
 Plug 'lilydjwg/colorizer'
+Plug 'xuhdev/vim-latex-live-preview'
 call plug#end()
 
 " auto pairs
@@ -96,3 +97,8 @@ inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 
 " vim-illuminate
 let g:Illuminate_highlightUnderCursor = 0
+
+" latex
+" start zathura preview window with :LLPStartPreview
+let g:livepreview_previewer = 'zathura'
+
