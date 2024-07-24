@@ -3,6 +3,30 @@ function vim
     nvim $argv
 end
 
+# make it so that you can exit just like vim
+function q
+    exit
+end
+
+# use exa like ls
+function ls
+    exa $argv
+end
+function ll
+    exa -l $argv
+end
+function la
+    exa -la $argv
+end
+function tree
+    exa --tree $argv
+end
+
+# use bat like cat
+function cat 
+    bat $argv
+end
+
 
 # Setting editor to nvim
 export VISUAL=/usr/bin/nvim
@@ -44,3 +68,5 @@ end
 function fish_greeting
 end
 
+# Enable vi mode
+fish_vi_key_bindings

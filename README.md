@@ -1,7 +1,26 @@
 # .dotfiles
-config and dotfiles made to be used with GNU stow
+Config and dotfiles made to be used with GNU stow
 
-## configured programs:
+## Installing dependencies with yay:
+```bash
+yay -S --needed - < dependencies
+```
+
+## Applying configurations
+```bash
+stow --target=/home/$USER/ [packages]
+```
+
+## Configured programs:
 - fish
 - nvim
-- libinput-gestures
+- kitty
+
+### TODO:
+
+Add:
+- i3/sway
+- tmux
+- use `--dotfiles` with stow
+
+
