@@ -8,7 +8,7 @@ yay -S --needed - < dependencies
 
 ## Applying configurations
 ```bash
-stow --target=/home/$USER/ [packages]
+stow --dotfiles --target=/home/$USER/ [packages]
 ```
 
 ## Configured programs:
@@ -21,6 +21,5 @@ stow --target=/home/$USER/ [packages]
 Add:
 - i3/sway
 - tmux
-- use `--dotfiles` with stow
 
 
