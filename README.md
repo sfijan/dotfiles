@@ -15,6 +15,7 @@ stow --dotfiles --target=/home/$USER/ [packages]
 - fish
 - nvim
 - kitty
+- ipython
 
 ### TODO:
 
