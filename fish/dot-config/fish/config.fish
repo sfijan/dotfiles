@@ -32,11 +32,6 @@ function tree
     exa --tree $argv
 end
 
-# use bat like cat
-function cat 
-    bat $argv
-end
-
 
 # Setting editor to nvim
 export VISUAL=/usr/bin/nvim
