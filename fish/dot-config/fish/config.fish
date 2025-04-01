@@ -1,3 +1,10 @@
+# check if last backgrounded task is neovim
+function nvim
+    if jobs | head -n 1 | grep -E 'nvim \$argv$'; fg;
+    else; /usr/bin/nvim $argv
+    end
+end
+
 # Rebind vim to nvim
 function vim
     nvim $argv
