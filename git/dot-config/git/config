@@ -1,0 +1,12 @@
+[user]
+    name = Sven Fijan
+    email = sven.j.fijan@gmail.com
+
+[url "git@github.com:"]
+    insteadOf = "gh:"
+
+[url "git@gitlab.com:"]
+    insteadOf = "gl:"
+
+[status]
+    showStash = true
