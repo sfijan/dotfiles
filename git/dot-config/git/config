@@ -10,3 +10,9 @@
 
 [status]
     showStash = true
+
+[branch]
+    sort = -comitterdate
+
+[tag]
+    sort = -taggerdate
