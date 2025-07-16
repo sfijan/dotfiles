@@ -232,6 +232,7 @@ return {
 				clangd = {},
 				gopls = {},
 				basedpyright = {},
+				-- ts_ls = {},
 				-- rust_analyzer = {},
 				-- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
 				--
@@ -448,7 +449,14 @@ return {
 					{ name = "nvim_lsp" },
 					{ name = "luasnip" },
 					{ name = "path" },
+					{ name = "buffer" },
 					{ name = "nvim_lsp_signature_help" },
+				},
+			})
+			cmp.setup.filetype({ "sql" }, {
+				sources = {
+					{ name = "vim-dadbod-completion" },
+					{ name = "buffer" },
 				},
 			})
 		end,
