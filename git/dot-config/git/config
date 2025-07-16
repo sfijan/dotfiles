@@ -12,7 +12,13 @@
     showStash = true
 
 [branch]
-    sort = -comitterdate
+    sort = -committerdate
 
 [tag]
     sort = -taggerdate
+
+[merge]
+    tool = nvimdiff
+
+[diff]
+    tool = nvimdiff
