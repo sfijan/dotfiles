@@ -1,3 +1,8 @@
 #! /usr/bin/bash
 
-sudo pacman -S --needed --noconfirm tldr
+yay -S --needed --noconfirm tldr clang stylua python-pynvim gopls
+
+# docker
+yay -S --needed --noconfirm docker docker-compose docker-buildx
+sudo usermod --append --groups docker sven # TODO: change to current user
+sudo systemctl enable --now docker
