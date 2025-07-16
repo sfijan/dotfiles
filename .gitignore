@@ -1,2 +1,4 @@
 fish/dot-config/fish/functions/*fzf*
 fish/dot-config/fish/completions/*
+
+tmux/dot-config/tmux/plugins/*
