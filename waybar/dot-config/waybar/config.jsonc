@@ -44,7 +44,7 @@
   "temperature": {
     "critical-threshold": 80,
     "format": "{icon} {temperatureC}°C",
-    "format-icons": ["", "", ""]
+    "format-icons": ["", "", ""],
   },
   "battery": {
     "states": {
@@ -79,15 +79,15 @@
   },
   "pulseaudio": {
     "format": "{icon}  {volume}%   {format_source}",
-    "format-bluetooth": "{volume}% {icon} {format_source}",
-    "format-bluetooth-muted": "   {icon} {format_source}",
+    "format-bluetooth": "{volume}% {icon}    {format_source}",
+    "format-bluetooth-muted": "   {icon}    {format_source}",
     "format-muted": "   {format_source}",
     "format-source": " {volume}%",
     "format-source-muted": "",
     "format-icons": {
       "headphone": "",
-      "hands-free": "",
-      "headset": "",
+      "hands-free": "",
+      "headset": "",
       "phone": "",
       "portable": "",
       "car": "",
@@ -96,7 +96,7 @@
     "on-click": "pavucontrol"
   },
   "custom/power": {
-    "format" : " ⏻ ",
+    "format" : " ⏻",
     "tooltip": false,
     "menu": "on-click",
     "menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
