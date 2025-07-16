@@ -51,13 +51,14 @@ vim.keymap.set("n", "<C-k>", "<C-w>k", { noremap = true, silent = false })
 vim.keymap.set("n", "<C-l>", "<C-w>l", { noremap = true, silent = false })
 
 -- faster hjkl navigation
-vim.keymap.set({ "n", "v" }, "H", "^", { noremap = true, silent = false })
-vim.keymap.set({ "n", "v" }, "J", "5j", { noremap = true, silent = false })
-vim.keymap.set({ "n", "v" }, "K", "5k", { noremap = true, silent = false })
-vim.keymap.set({ "n", "v" }, "L", "$", { noremap = true, silent = false })
+-- vim.keymap.set({ "n", "v" }, "H", "^", { noremap = true, silent = false })
+-- vim.keymap.set({ "n", "v" }, "J", "5j", { noremap = true, silent = false })
+-- vim.keymap.set({ "n", "v" }, "K", "5k", { noremap = true, silent = false })
+-- vim.keymap.set({ "n", "v" }, "L", "$", { noremap = true, silent = false })
 
-vim.keymap.set("n", ";", ":", { noremap = true, silent = false })
-vim.keymap.set("n", ":", ";", { noremap = true, silent = false })
+-- replacing ; and :
+vim.keymap.set({ "n", "v" }, ";", ":", { noremap = true, silent = false })
+vim.keymap.set({ "n", "v" }, ":", ";", { noremap = true, silent = false })
 
 vim.keymap.set("t", "<Esc>", "<C-\\><C-n>", { noremap = true, silent = false })
 
