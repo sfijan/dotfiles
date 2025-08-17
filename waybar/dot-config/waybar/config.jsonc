@@ -4,9 +4,6 @@
   "margin-right": 10,
   "height" : 20,
   "modules-left": [
-    "hyprland/window"
-  ],
-  "modules-center": [
     "hyprland/workspaces",
   ],
   "modules-right": [
@@ -19,14 +16,6 @@
     "clock",
     "custom/power"
   ],
-  "hyprland/window": {
-    "format": "{}",
-    "max-length": 35,
-    "rewrite": {
-      "": "..."
-    },
-    "separate-outputs": true,
-  },
   "hyprland/workspaces": {
     "format": "{icon}",
     "on-click": "activate",
