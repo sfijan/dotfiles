@@ -1,9 +1,10 @@
 [user]
     name = Sven Fijan
-    email = sven.j.fijan@gmail.com
+    email = sven@trustap.com
 
 [url "git@github.com:"]
     insteadOf = "gh:"
+	insteadOf = https://github.com/
 
 [url "git@gitlab.com:"]
     insteadOf = "gl:"

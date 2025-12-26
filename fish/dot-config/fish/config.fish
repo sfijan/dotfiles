@@ -1,9 +1,9 @@
-# make it so that you can exit just like vim
+# Make it so that you can exit just like vim
 function q
     exit
 end
 
-# use yazi to change directory
+# Use yazi to change directory
 function y
 	set tmp (mktemp -t "yazi-cwd.XXXXXX")
 	yazi $argv --cwd-file="$tmp"
@@ -13,7 +13,7 @@ function y
 	rm -f -- "$tmp"
 end
 
-# use exa like ls
+# Use exa like ls
 function ls
     exa $argv
 end
@@ -28,9 +28,14 @@ function tree
 end
 
 
+# Environment variables
 # Setting editor to nvim
 export VISUAL=/usr/bin/nvim
 export EDITOR="$VISUAL"
+# Setting nvim as the man pager
+set -x MANPAGER 'nvim +Man!'
+
+set PATH /home/$USER/bin $PATH
 
 
 # Prompt
@@ -60,6 +65,7 @@ function fish_prompt
 
     printf '%s ' (__fish_git_prompt)
 
+    printf '\n > '
     set_color normal
 end
 

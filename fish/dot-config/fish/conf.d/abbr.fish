@@ -6,9 +6,9 @@ abbr -a -- gc 'git commit'
 abbr -a -- gco 'git checkout'
 abbr -a -- gp 'git push'
 abbr -a -- gu 'git pull'
-# abbr -a -- gl 'git log --oneline --color --graph'
-abbr -a -- gl "git log --all --graph --pretty=\
-format:'%C(magenta)%h %C(white) %an  %ar%C(auto)  %D%n%S%n'"
+abbr -a -- gl 'git log --oneline --color --graph -n 8'
+# abbr -a -- gl "git log --all --graph --pretty=\
+# format:'%C(magenta)%h %C(white) %an  %ar%C(auto)  %D%n%S%n'"
 abbr -a -- gb 'git branch'
 abbr -a -- gf 'git fetch --all --prune'
 
