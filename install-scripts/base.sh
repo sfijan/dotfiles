@@ -11,8 +11,8 @@ cd ..
 rm -rf yay
 
 # install dofiles configs
-rm -rf ~/.config/{fish, git, hypr, kitty, nvim, tmux, waybar}
-stow --dotfiles --target=$home/ fish git hyprland kitty nvim tmux waybar 
+rm -rf ~/.config/{fish, git, hypr, kitty, nvim, tmux, waybar, clipse}
+stow --dotfiles --target=$home/ fish git hyprland kitty nvim tmux waybar clipse
 
 # install packages
 yay -S --needed --noconfirm nvim kitty fish yazi exa waybar hyprlock hyprshot pavucontrol fzf power-profiles-daemon light uwsm backlight_control rsync downgrade clipse
