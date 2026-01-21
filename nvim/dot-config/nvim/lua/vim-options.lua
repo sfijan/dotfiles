@@ -37,7 +37,8 @@ vim.opt.scrolloff = 10
 vim.opt.mouse = "a"
 vim.opt.showmode = false
 vim.opt.confirm = true
---
+vim.opt.wrap = true
+
 -- Sets how neovim will display certain whitespace characters in the editor.
 -- vim.opt.list = true
 -- vim.opt.listchars = { trail = "·", nbsp = "␣" }
@@ -62,10 +63,6 @@ vim.keymap.set("n", "<C-l>", "<C-w>l", { noremap = true, silent = false })
 vim.keymap.set({ "n", "v" }, "j", "gj", { noremap = true, silent = false })
 vim.keymap.set({ "n", "v" }, "k", "gk", { noremap = true, silent = false })
 -- faster hjkl navigation
--- vim.keymap.set({ "n", "v" }, "H", "^", { noremap = true, silent = false })
--- vim.keymap.set({ "n", "v" }, "J", "5j", { noremap = true, silent = false })
--- vim.keymap.set({ "n", "v" }, "K", "5k", { noremap = true, silent = false })
--- vim.keymap.set({ "n", "v" }, "L", "$", { noremap = true, silent = false })
 
 -- replacing ; and :
 vim.keymap.set({ "n", "v" }, ";", ":", { noremap = true, silent = false })

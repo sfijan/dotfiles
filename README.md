@@ -15,12 +15,9 @@ stow --dotfiles --target=/home/$USER/ [packages]
 - fish
 - nvim
 - kitty
+- clipse
+- git
+- hyprland
+- waybar
 - ipython
-
-### TODO:
-
-Add:
-- i3/sway
-- tmux
-
 
