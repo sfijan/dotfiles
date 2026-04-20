@@ -15,7 +15,7 @@ rm -rf ~/.config/{fish, git, hypr, kitty, nvim, tmux, waybar, clipse}
 stow --dotfiles --target=$home/ fish git hyprland kitty nvim tmux waybar clipse
 
 # install packages
-yay -S --needed --noconfirm nvim kitty fish yazi exa waybar hyprlock hyprshot pavucontrol fzf power-profiles-daemon light uwsm backlight_control rsync downgrade clipse
+yay -S --needed --noconfirm nvim kitty fish yazi exa waybar hyprlock hyprshot hypridle pavucontrol fzf power-profiles-daemon light uwsm backlight_control rsync downgrade clipse
 yay -S --needed --noconfirm ttf-adobe-source-code-pro-fonts
 
 # fish
