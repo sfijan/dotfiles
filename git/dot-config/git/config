@@ -23,3 +23,6 @@
 
 [diff]
     tool = nvimdiff
+
+[push]
+    autoSetupRemote = true
