@@ -19,10 +19,20 @@ return {
 
 			-- Add/delete/replace surroundings (brackets, quotes, etc.)
 			--
-			-- - saiw) - [S]urround [A]dd [I]nner [W]ord [)]Paren
-			-- - sd'   - [S]urround [D]elete [']quotes
-			-- - sr)'  - [S]urround [R]eplace [)] [']
-			require("mini.surround").setup()
+			-- - <leader>saiw) - [S]urround [A]dd [I]nner [W]ord [)]Paren
+			-- - <leader>sd'   - [S]urround [D]elete [']quotes
+			-- - <leader>sr)'  - [S]urround [R]eplace [)] [']
+			-- require("mini.surround").setup({
+			-- 	mappings = {
+			-- 		add = "<leader>sa",
+			-- 		delete = "<leader>sd",
+			-- 		find = "<leader>sf",
+			-- 		find_left = "<leader>sF",
+			-- 		highlight = "<leader>sh",
+			-- 		replace = "<leader>sr",
+			-- 		update_n_lines = "<leader>sn",
+			-- 	},
+			-- })
 
 			-- Simple and easy statusline.
 			--  You could remove this setup call if you don't like it,

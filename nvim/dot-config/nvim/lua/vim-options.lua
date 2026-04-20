@@ -37,7 +37,6 @@ vim.opt.scrolloff = 10
 vim.opt.mouse = "a"
 vim.opt.showmode = false
 vim.opt.confirm = true
-vim.opt.wrap = true
 
 -- Sets how neovim will display certain whitespace characters in the editor.
 -- vim.opt.list = true

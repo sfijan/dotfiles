@@ -47,6 +47,10 @@ return {
 			map("n", "<leader>tb", gitsigns.toggle_current_line_blame, { desc = "[T]oggle git show [b]lame line" })
 			map("n", "<leader>tD", gitsigns.preview_hunk_inline, { desc = "[T]oggle git show [D]eleted" })
 			map("n", "<leader>gb", gitsigns.blame, { desc = "Split with [g]it [b]lame" })
+			function next_hunk()
+				gitsigns.nav_hunk("next")
+			end
+			map("n", "<leader>gn", next_hunk, { desc = "[G]itsigns [n]ext hunk" })
 		end,
 	},
 }
